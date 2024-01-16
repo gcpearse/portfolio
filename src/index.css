@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: 'Noto Sans', sans-serif;
+  background: #FEFEFE;
+  color: #222222;
 }
