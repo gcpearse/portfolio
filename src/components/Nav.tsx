@@ -1,6 +1,7 @@
 import { useAppDispatch, useAppSelector } from '../app/hooks'
-import { IoClose, IoMenu } from "react-icons/io5"
+import { IoClose, IoMenu } from 'react-icons/io5'
 import { toggle } from '../features/nav/navSlice'
+import { FaCode, FaGithub, FaHome, FaLinkedin } from 'react-icons/fa'
 
 const Nav: React.FC = () => {
 
@@ -23,9 +24,10 @@ const Nav: React.FC = () => {
         onClick={() => dispatch(toggle())} />
       )}
       <ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>GitHub</li>
+        <li>Home <FaHome className='nav-icon' /></li>
+        <li>Projects <FaCode className='nav-icon' /></li>
+        <li>GitHub <FaGithub className='nav-icon' /></li>
+        <li>LinkedIn <FaLinkedin className='nav-icon' /></li>
       </ul>
     </nav>
   )
