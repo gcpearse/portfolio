@@ -8,3 +8,7 @@
   background: #FEFEFE;
   color: #222222;
 }
+
+button {
+  cursor: pointer;
+}
