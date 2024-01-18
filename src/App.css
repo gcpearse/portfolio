@@ -83,6 +83,11 @@
     list-style: none;
   }
 
+  .sidebar ul li>a {
+    display: flex;
+    align-items: center;
+  }
+
   .sidebar>ul>li:hover {
     border-radius: 10px;
     padding: 0.4em 0.6em;
@@ -324,12 +329,12 @@ a>button:active {
   text-align: start;
 }
 
-.project-wrapper>div>ul {
+.project-info>ul {
   display: flex;
   flex-wrap: wrap;
 }
 
-.project-wrapper>div>ul>li {
+.project-info>ul>li {
   margin: 1.5% 3% 1.5% 0;
   border-radius: 12px;
   padding: 0.5em 1.2em;
@@ -359,16 +364,16 @@ a>button:active {
     background: #F5F5F5;
   }
 
-  .project-wrapper>div>*:not(:last-child) {
+  .project-info>*:not(:last-child) {
     padding-bottom: 7%;
   }
 
-  .project-wrapper>div>h2 {
+  .project-info>h2 {
     font-size: 1.5rem;
     font-weight: 600;
   }
 
-  .project-wrapper>div>h3 {
+  .project-info>h3 {
     font-size: 1.1rem;
     font-weight: 500;
   }
@@ -450,7 +455,7 @@ a>button:active {
     justify-content: space-between;
   }
 
-  .project-wrapper>div>*:not(:last-child) {
+  .project-info>*:not(:last-child) {
     padding-bottom: 2%;
   }
 
@@ -463,17 +468,18 @@ a>button:active {
     max-width: 180px;
   }
 
-  .project-wrapper>div>h2 {
+  .project-info>h2 {
     font-size: 1.8rem;
     font-weight: 600;
   }
 
-  .project-wrapper>div>h3 {
+  .project-info>h3 {
     font-size: 1.4rem;
     font-weight: 600;
   }
 
-  .project-wrapper>div>ul>li {
+  .project-info>ul>li {
+    margin: 1.5% 1.5% 1.5% 0;;
     padding: 0.5em 1.2em;
   }
 
