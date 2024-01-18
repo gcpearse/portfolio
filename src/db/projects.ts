@@ -14,7 +14,8 @@ export const projects: Project[] = [
       "JavaScript",
       "Express",
       "Jest",
-      "Supertest"
+      "Supertest",
+      "PostgreSQL"
     ],
     description: "The Northcoders News API is a fully functional API using Node.js to interact with a PostgreSQL database. It mimics a real-world forum or news website on which users are able to interact with articles, leave comments, vote, and explore a range of topics."
   },
@@ -33,12 +34,12 @@ export const projects: Project[] = [
       "Vite",
       "Axios"
     ],
-    description: "Northcoders News mimics a real-world forum on which users are able to browse articles, post or delete comments, and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API."
+    description: "Northcoders News mimics a real-world forum on which users are able to browse articles, post or delete comments, and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript, using Axios for HTTP requests."
   },
   {
     projectId: 3,
     title: "Umami",
-    tagline: "The front-end repository for team HypeScript's group project",
+    tagline: "Front-end repository for team HypeScript's group project",
     type: "front-end",
     isHosted: true,
     imgLink: "umami.png",
@@ -47,6 +48,7 @@ export const projects: Project[] = [
     techStack: [
       "TypeScript",
       "React",
+      "Redux",
       "Redux Toolkit",
       "Vite",
       "Axios",
