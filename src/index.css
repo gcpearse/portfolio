@@ -17,3 +17,17 @@ a {
 button {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin-top: 10%;
+    padding-bottom: 77px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  main {
+    margin-top: 5%;
+    padding-bottom: 83px;
+  }
+}
