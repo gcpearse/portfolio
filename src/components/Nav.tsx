@@ -27,22 +27,22 @@ const Nav: React.FC = () => {
       <ul>
         <li onClick={() => dispatch(close())}>
           <Link to="/">
-            Home <FaHome className="nav-icon" />
+            Home&nbsp;<FaHome className="nav-icon" />
           </Link>
         </li>
         <li onClick={() => dispatch(close())}>
           <Link to="/projects">
-            Projects <FaCode className="nav-icon" />
+            Projects&nbsp;<FaCode className="nav-icon" />
           </Link>
         </li>
         <li onClick={() => dispatch(close())}>
           <a href="https://github.com/gcpearse" target="_blank">
-            GitHub <FaGithub className="nav-icon" />
+            GitHub&nbsp;<FaGithub className="nav-icon" />
           </a>
         </li>
         <li onClick={() => dispatch(close())}>
           <a href="https://www.linkedin.com/in/glen-pearse-0b5826112/" target="_blank">
-            LinkedIn <FaLinkedin className="nav-icon" />
+            LinkedIn&nbsp;<FaLinkedin className="nav-icon" />
           </a>
         </li>
       </ul>
