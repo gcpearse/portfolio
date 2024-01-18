@@ -338,6 +338,20 @@ a>button:active {
   color: #FEFEFE;
 }
 
+.link-wrapper>a {
+  box-shadow: 0 0 2px 1px #222222;
+  transition: 0.8s;
+}
+
+.link-wrapper>a:hover {
+  background: #FEFEFE;
+  color: #222222;
+}
+
+.link-wrapper>a:active {
+  transform: scale(0.95);
+}
+
 @media only screen and (max-width: 600px) {
   .project-wrapper {
     box-shadow: 0 0 4px 1px #E3E3E3;
