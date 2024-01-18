@@ -301,10 +301,14 @@ a>button:active {
     margin-bottom: 10%;
     font-size: 2.5rem;
   }
+  .projects-section>div>ul {
+    margin-bottom: 10%;
+  }
 }
 
 @media only screen and (min-width: 601px) {
   .projects-section>h1 {
+    margin-bottom: 5%;
     font-size: 3rem;
   }
 }
