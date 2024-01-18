@@ -5,7 +5,7 @@ import SingleProject from "./SingleProject"
 const Projects: React.FC = () => {
   return (
     <section className="projects-section">
-      <h1>Projects</h1>
+      <h1>Featured Projects</h1>
       <div>
         <ul>
           {projects.map((project) => {
