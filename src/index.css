@@ -12,10 +12,15 @@
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 button {
   cursor: pointer;
+}
+
+h1 {
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {

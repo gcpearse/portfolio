@@ -95,6 +95,34 @@
   }
 }
 
+/* Pages || */
+
+.btn-wrapper {
+  margin-top: 5%;
+}
+
+a>button {
+  box-shadow: 0 0 2px 1px #222222;
+  border: none;
+  border-radius: 50px;
+  max-width: 90vw;
+  padding: 0.8em 1.4em;
+  background: #222222;
+  font-size: 1.5rem;
+  color: #FEFEFE;
+  transition: 0.8s;
+}
+
+a>button:hover {
+  border-radius: 8px;
+  background: #FEFEFE;
+  color: #222222;
+}
+
+a>button:active {
+  transform: scale(0.95);
+}
+
 /* Home || */
 
 @media only screen and (max-width: 600px) {
@@ -181,7 +209,7 @@
   }
 
   .text-wrapper>p {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     text-align: justify;
   }
 
@@ -237,7 +265,7 @@
   }
 
   .text-wrapper>p {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     text-align: justify;
   }
 
@@ -257,35 +285,28 @@
   object-fit: cover;
   border-radius: 40px;
   width: 80%;
-  max-width: 500px;
+  max-width: 550px;
   aspect-ratio: 1/1;
   box-shadow: 0 0 6px 1px #222222;
 }
 
-.btn-wrapper {
-  margin-top: 5%;
+/* Projects || */
+
+.projects-section>p {
+  text-align: justify;
 }
 
-.btn-wrapper>button {
-  box-shadow: 0 0 2px 1px #222222;
-  border: none;
-  border-radius: 50px;
-  max-width: 90vw;
-  padding: 0.8em 1.4em;
-  background: #222222;
-  font-size: 1.5rem;
-  color: #FEFEFE;
-  transition: 0.8s;
+@media only screen and (max-width: 600px) {
+  .projects-section>h1 {
+    margin-bottom: 10%;
+    font-size: 2.5rem;
+  }
 }
 
-.btn-wrapper>button:hover {
-  border-radius: 8px;
-  background: #FEFEFE;
-  color: #222222;
-}
-
-.btn-wrapper>button:active {
-  transform: scale(0.95);
+@media only screen and (min-width: 601px) {
+  .projects-section>h1 {
+    font-size: 3rem;
+  }
 }
 
 /* Footer || */
