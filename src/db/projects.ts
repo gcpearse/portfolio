@@ -7,6 +7,7 @@ export const projects: Project[] = [
     tagline: "Fully functional API built in Node.js",
     type: "back-end",
     isHosted: true,
+    imgLink: "nc-news-be.png",
     siteLink: "https://northcoders-news-api-twr1.onrender.com/api",
     repository: "https://github.com/gcpearse/northcoders-news-api",
     techStack: [
@@ -23,6 +24,7 @@ export const projects: Project[] = [
     tagline: "Real-world forum built in React",
     type: "front-end",
     isHosted: true,
+    imgLink: "nc-news-fe.png",
     siteLink: "https://northcoders-news-api-interface.netlify.app/",
     repository: "https://github.com/gcpearse/northcoders-news-api-interface",
     techStack: [
@@ -39,6 +41,7 @@ export const projects: Project[] = [
     tagline: "The front-end repository for team HypeScript's group project",
     type: "front-end",
     isHosted: true,
+    imgLink: "umami.png",
     siteLink: "http://ec2-18-130-212-68.eu-west-2.compute.amazonaws.com:3000/",
     repository: "https://github.com/gcpearse/RecipeHub-FE",
     techStack: [
