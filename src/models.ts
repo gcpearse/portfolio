@@ -4,7 +4,7 @@ export type Project = {
   tagline: string
   type: string
   isHosted: boolean
-  siteLink: string | null
+  siteLink: string | undefined
   repository: string
   techStack: string[]
   description: string
