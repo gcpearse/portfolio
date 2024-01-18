@@ -1,4 +1,6 @@
 #root {
+  position: relative;
+  min-height: 100vh;
   text-align: center;
 }
 
@@ -120,10 +122,14 @@
     font-size: 1.03rem;
     text-align: justify;
   }
+
+  .btn-wrapper {
+    margin-bottom: 10%;
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1280px) {
-  
+
   .contents-wrapper {
     margin-top: 5%;
   }
@@ -145,7 +151,7 @@
   .text-wrapper>p {
     padding: 11px 0;
   }
-  
+
   .text-wrapper>span {
     font-size: 2.5rem;
     font-weight: 600;
@@ -164,6 +170,10 @@
   .text-wrapper>p {
     font-size: 1.15rem;
     text-align: justify;
+  }
+
+  .btn-wrapper {
+    margin-bottom: 5%;
   }
 }
 
@@ -218,6 +228,10 @@
     font-size: 1.15rem;
     text-align: justify;
   }
+
+  .btn-wrapper {
+    margin-bottom: 5%;
+  }
 }
 
 .img-wrapper {
@@ -240,7 +254,7 @@
   margin-top: 5%;
 }
 
-.btn-wrapper > button {
+.btn-wrapper>button {
   box-shadow: 0 0 2px 1px #222222;
   border: none;
   border-radius: 50px;
@@ -252,12 +266,42 @@
   transition: 0.8s;
 }
 
-.btn-wrapper > button:hover {
+.btn-wrapper>button:hover {
   border-radius: 8px;
   background: #FEFEFE;
   color: #222222;
 }
 
-.btn-wrapper > button:active {
+.btn-wrapper>button:active {
   transform: scale(0.95);
+}
+
+/* Footer || */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    padding-bottom: 77px;
+  }
+
+  footer {
+    height: 77px;
+    background: #3c6e71;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  main {
+    padding-bottom: 83px;
+  }
+
+  footer {
+    height: 83px;
+    background: #222222;
+  }
 }
