@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom"
 import "./App.css"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
@@ -8,7 +9,9 @@ const App: React.FC = () => {
     <>
       <Nav />
       <main>
-        <Home />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </main>
       <Footer />
     </>
