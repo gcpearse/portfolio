@@ -3,8 +3,25 @@ import { Project } from "../models";
 export const projects: Project[] = [
   {
     projectId: 1,
+    title: "Northcoders News API Interface",
+    tagline: "Real-world forum built with React and vanilla JavaScript",
+    type: "front-end",
+    isHosted: true,
+    imgLink: "nc-news-fe.png",
+    siteLink: "https://northcoders-news-api-interface.netlify.app/",
+    repository: "https://github.com/gcpearse/northcoders-news-api-interface",
+    techStack: [
+      "JavaScript",
+      "React",
+      "Vite",
+      "Axios"
+    ],
+    description: "Northcoders News mimics a real-world forum on which users are able to browse articles, post or delete comments, and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript, using Axios for HTTP requests."
+  },
+  {
+    projectId: 2,
     title: "Northcoders News API",
-    tagline: "Fully functional API built in Node.js",
+    tagline: "Fully functional and rigorously tested REST API",
     type: "back-end",
     isHosted: true,
     imgLink: "nc-news-be.png",
@@ -20,26 +37,9 @@ export const projects: Project[] = [
     description: "The Northcoders News API is a fully functional API using Node.js to interact with a PostgreSQL database. It mimics a real-world forum or news website on which users are able to interact with articles, leave comments, vote, and explore a range of topics."
   },
   {
-    projectId: 2,
-    title: "Northcoders News API Interface",
-    tagline: "Real-world forum built in React",
-    type: "front-end",
-    isHosted: true,
-    imgLink: "nc-news-fe.png",
-    siteLink: "https://northcoders-news-api-interface.netlify.app/",
-    repository: "https://github.com/gcpearse/northcoders-news-api-interface",
-    techStack: [
-      "JavaScript",
-      "React",
-      "Vite",
-      "Axios"
-    ],
-    description: "Northcoders News mimics a real-world forum on which users are able to browse articles, post or delete comments, and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript, using Axios for HTTP requests."
-  },
-  {
     projectId: 3,
-    title: "Umami",
-    tagline: "Front-end repository for team HypeScript's group project",
+    title: "Umami - Group Project",
+    tagline: "Collaborative recipe site built with React, Redux Toolkit, and TypeScript",
     type: "front-end",
     isHosted: true,
     imgLink: "umami.png",
@@ -59,7 +59,7 @@ export const projects: Project[] = [
   {
     projectId: 4,
     title: "CarboMonitor",
-    tagline: "API interface for the Official Carbon Intensity API",
+    tagline: "API interface for the Official Carbon Intensity API built with React and vanilla JavaScript",
     type: "front-end",
     isHosted: true,
     imgLink: "carbomonitor.png",
@@ -76,7 +76,7 @@ export const projects: Project[] = [
   {
     projectId: 5,
     title: "Taskyard",
-    tagline: "A basic to-do list app built in TypeScript",
+    tagline: "A basic to-do list app built with React and TypeScript",
     type: "front-end",
     isHosted: true,
     imgLink: "taskyard.png",
@@ -92,7 +92,7 @@ export const projects: Project[] = [
   {
     projectId: 6,
     title: "Name Roulette",
-    tagline: "A random name selector built in TypeScript",
+    tagline: "A random name selector built with React and TypeScript",
     type: "front-end",
     isHosted: true,
     imgLink: "name-roulette.png",
