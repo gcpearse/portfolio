@@ -1,7 +1,6 @@
 const Home: React.FC = () => {
   return (
     <section>
-      <div className="mobile-header"></div>
       <article className="contents-wrapper">
         <div className="profile-wrapper">
           <div className="text-wrapper">
