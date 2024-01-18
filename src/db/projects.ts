@@ -2,6 +2,7 @@ import { Project } from "../models";
 
 export const projects: Project[] = [
   {
+    projectId: 1,
     title: "Northcoders News API",
     tagline: "Fully functional API built in Node.js",
     type: "back-end",
@@ -17,6 +18,7 @@ export const projects: Project[] = [
     description: "The Northcoders News API is a fully functional API using Node.js to interact with a PostgreSQL database. It mimics a real-world forum or news website on which users are able to interact with articles, leave comments, vote, and explore a range of topics."
   },
   {
+    projectId: 2,
     title: "Northcoders News API Interface",
     tagline: "Real-world forum built in React",
     type: "front-end",
@@ -32,6 +34,7 @@ export const projects: Project[] = [
     description: "Northcoders News mimics a real-world forum on which users are able to browse articles, post or delete comments, and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API."
   },
   {
+    projectId: 3,
     title: "Umami",
     tagline: "The front-end repository for team HypeScript's group project",
     type: "front-end",
