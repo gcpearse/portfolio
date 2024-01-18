@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         <div className="img-wrapper">
           <img
             className="profile-img"
-            src="src/assets/github.jpg"
+            src="/github.jpg"
             alt="A GitHub icon carved out of wood" />
         </div>
       </article>
