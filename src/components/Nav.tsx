@@ -1,6 +1,6 @@
 import { useAppDispatch, useAppSelector } from "../app/hooks"
 import { IoClose, IoMenu } from "react-icons/io5"
-import { toggle } from "../features/nav/navSlice"
+import { close, toggle } from "../features/nav/navSlice"
 import { FaCode, FaGithub, FaHome, FaLinkedin } from "react-icons/fa"
 import { Link } from "react-router-dom"
 
@@ -25,22 +25,22 @@ const Nav: React.FC = () => {
           onClick={() => dispatch(toggle())} />
       )}
       <ul>
-        <li>
+        <li onClick={() => dispatch(close())}>
           <Link to="/">
             Home <FaHome className="nav-icon" />
           </Link>
         </li>
-        <li>
+        <li onClick={() => dispatch(close())}>
           <Link to="/projects">
             Projects <FaCode className="nav-icon" />
           </Link>
         </li>
-        <li>
+        <li onClick={() => dispatch(close())}>
           <a href="https://github.com/gcpearse" target="_blank">
             GitHub <FaGithub className="nav-icon" />
           </a>
         </li>
-        <li>
+        <li onClick={() => dispatch(close())}>
           <a href="https://www.linkedin.com/in/glen-pearse-0b5826112/" target="_blank">
             LinkedIn <FaLinkedin className="nav-icon" />
           </a>
