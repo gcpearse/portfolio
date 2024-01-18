@@ -1,4 +1,5 @@
 export type Project = {
+  projectId: number
   title: string
   tagline: string
   type: string
