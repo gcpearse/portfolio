@@ -1,4 +1,4 @@
-const Contents: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <section>
       <div className="mobile-header"></div>
@@ -26,4 +26,4 @@ const Contents: React.FC = () => {
   )
 }
 
-export default Contents
+export default Home
