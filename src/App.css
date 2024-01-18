@@ -517,6 +517,32 @@ footer {
   width: 100%;
 }
 
+.scroll-up-btn {
+  position: fixed;
+  display: flex;
+  bottom: 7px;
+  right: -56px;
+  border: none;
+  border-radius: 10%;
+  background: #222222;
+  color: #FEFEFE;
+  font-size: 3.5rem;
+  opacity: 50%;
+  transition: 0.8s;
+}
+
+.visible-btn {
+  right: 7px;
+}
+
+.scroll-up-btn:hover {
+  opacity: 100%;
+}
+
+.scroll-up-btn:active {
+  transform: scale(0.9);
+}
+
 @media only screen and (max-width: 600px) {
   footer {
     height: 77px;
