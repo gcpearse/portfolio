@@ -302,7 +302,7 @@ a>button:active {
 @media only screen and (max-width: 600px) {
   .projects-section>h1 {
     margin-bottom: 10%;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 
   .projects-section>div>ul {
