@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     projectId: 1,
     title: "Northcoders News API Interface",
-    tagline: "Real-world forum built with React and vanilla JavaScript",
+    tagline: "Interactive web forum built with React and vanilla JavaScript",
     type: "frontend",
     isHosted: true,
     imgLink: "nc-news-fe.png",
@@ -29,6 +29,7 @@ export const projects: Project[] = [
     repository: "https://github.com/gcpearse/northcoders-news-api",
     techStack: [
       "JavaScript",
+      "Node.js",
       "Express",
       "Jest",
       "Supertest",
@@ -38,8 +39,8 @@ export const projects: Project[] = [
   },
   {
     projectId: 3,
-    title: "Umami - Group Project",
-    tagline: "Collaborative recipe site built with React, Redux Toolkit, and TypeScript",
+    title: "Umami - Team Project",
+    tagline: "Collaborative web application providing version control for chefs and home cooks",
     type: "frontend",
     isHosted: true,
     imgLink: "umami.png",
@@ -59,7 +60,7 @@ export const projects: Project[] = [
   {
     projectId: 4,
     title: "CarboMonitor",
-    tagline: "API interface for the Official Carbon Intensity API built with React and vanilla JavaScript",
+    tagline: "API interface for the National Grid's Official Carbon Intensity API",
     type: "frontend",
     isHosted: true,
     imgLink: "carbomonitor.png",
@@ -76,7 +77,7 @@ export const projects: Project[] = [
   {
     projectId: 5,
     title: "Taskyard",
-    tagline: "A basic to-do list app built with React and TypeScript",
+    tagline: "Simple to-do list app built with React and TypeScript",
     type: "frontend",
     isHosted: true,
     imgLink: "taskyard.png",
@@ -87,7 +88,7 @@ export const projects: Project[] = [
       "React",
       "Vite"
     ],
-    description: "Taskyard was built by following Piyush Agarwal's YouTube tutorial for freeCodeCamp.org. The majority of the functionality in Taskyard is shared with Piyush's Taskify app, but there are some additional features. The app allows users to add, edit, delete, or mark tasks as complete, as well as clearing the entire list to start afresh. I used this tutorial to cover the basics of building React apps in TypeScript." 
+    description: "Taskyard was built by following a tutorial by Piyush Agarwal. The majority of the functionality in Taskyard is shared with Piyush's Taskify app, but there are some additional features. The app allows users to add, edit, delete, or mark tasks as complete, as well as clearing the entire list. I followed this tutorial to cover the basics of building React apps in TypeScript." 
   },
   {
     projectId: 6,
@@ -104,5 +105,21 @@ export const projects: Project[] = [
       "Vite"
     ],
     description: "Name Roulette is a mini app that allows users to add names to a list, then select one of those names at random. I built this app to practise using TypeScript for React applications, focussing on functionality over aesthetic appeal." 
+  },
+  {
+    projectId: 7,
+    title: "GoMapp",
+    tagline: "A travel mini app allowing users to mark the countries they have visited or would like to explore",
+    type: "frontend",
+    isHosted: true,
+    imgLink: "gomapp.png",
+    siteLink: "https://gomapp.netlify.app/",
+    repository: "https://github.com/gcpearse/travel-tracker",
+    techStack: [
+      "JavaScript",
+      "React",
+      "Vite"
+    ],
+    description: "GoMapp was the first app I built in React, helping me to understand state, hooks, and how to pass props down from one component to another. As I develop much more complex applications now, GoMapp serves as a reference point to track my progress over the last few months." 
   }
 ]
