@@ -29,7 +29,11 @@ const SingleProject: React.FC<Props> = ({ project }) => {
           {project.isHosted ? (
             <div className="link-wrapper">
               <a href={project.siteLink} target="_blank">
-              <p className="icon-desc">Live Application&nbsp;</p><FaLink />
+                <p className="icon-desc">{project.type === "frontend" ? (
+                  "Live Application"
+                ) : (
+                  "Documentation"
+                )}&nbsp;</p><FaLink />
               </a>
             </div>
           ) : (
