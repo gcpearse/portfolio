@@ -16,7 +16,7 @@ export const projects: Project[] = [
       "Vite",
       "Axios"
     ],
-    description: "Northcoders News mimics a real-world forum on which users are able to browse articles, post or delete comments, and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript, using Axios for HTTP requests."
+    description: "Northcoders News mimics a real-world forum on which users are able to browse articles, while optionally applying a range of search filters. Logged in users may also post or delete comments and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript and uses Axios for HTTP requests."
   },
   {
     projectId: 2,
@@ -35,7 +35,7 @@ export const projects: Project[] = [
       "Supertest",
       "PostgreSQL"
     ],
-    description: "The Northcoders News API is a fully functional API using Node.js to interact with a PostgreSQL database. It mimics a real-world forum or news website on which users are able to interact with articles, leave comments, vote, and explore a range of topics."
+    description: "The Northcoders News API is a fully functional REST API using Node.js to interact with a PostgreSQL database. It mimics a real-world forum or news website on which users are able to interact with articles, leave comments, vote, and explore a range of topics."
   },
   {
     projectId: 3,
@@ -72,7 +72,7 @@ export const projects: Project[] = [
       "Vite",
       "Axios"
     ],
-    description: "CarboMonitor makes requests to the National Grid's Official Carbon Intensity API. This mini project helped me get to grips with using Axios in React to interact with an API and clearly display relevant data on the front end."
+    description: "CarboMonitor makes requests to the National Grid's Official Carbon Intensity API to present up-to-date information about the country's carbon intensity and fuel sources. This was my first opportunity to take advantage of Axios to interact with a third-party API, then clearly display relevant data to users on the front end."
   },
   {
     projectId: 5,
@@ -88,7 +88,7 @@ export const projects: Project[] = [
       "React",
       "Vite"
     ],
-    description: "Taskyard was built by following a tutorial by Piyush Agarwal. The majority of the functionality in Taskyard is shared with Piyush's Taskify app, but there are some additional features. The app allows users to add, edit, delete, or mark tasks as complete, as well as clearing the entire list. I followed this tutorial to cover the basics of building React apps in TypeScript." 
+    description: "I developed Taskyard by following Piyush Agarwal's tutorial for freeCodeCamp. The majority of the functionality in Taskyard is shared with Piyush's original Taskify app, but there are a number of additional features. The app allows users to add, edit, delete, or mark tasks as complete, as well as clearing the entire list. This short project helped me to familiarise myself with the use of TypeScript for React apps."
   },
   {
     projectId: 6,
@@ -104,12 +104,28 @@ export const projects: Project[] = [
       "React",
       "Vite"
     ],
-    description: "Name Roulette is a mini app that allows users to add names to a list, then select one of those names at random. I built this app to practise using TypeScript for React applications, focussing on functionality over aesthetic appeal." 
+    description: "Name Roulette is a mini app that allows users to add names to a list, then select one of those names at random. I built this app to practise using TypeScript for React applications, focussing on functionality over aesthetic appeal."
   },
   {
     projectId: 7,
+    title: "eTask",
+    tagline: "A basic to-do list app built with React and vanilla JavaScript",
+    type: "frontend",
+    isHosted: true,
+    imgLink: "eTask.png",
+    siteLink: "https://e-task.netlify.app/",
+    repository: "https://github.com/gcpearse/to-do-list",
+    techStack: [
+      "JavaScript",
+      "React",
+      "Vite"
+    ],
+    description: "This was my second React mini app, allowing me to explore more complex functionality and think creatively about building a positive user experience. With eTask, users are able to add tasks to a list, mark tasks as complete, delete individual tasks, or clear the entire list."
+  },
+  {
+    projectId: 8,
     title: "GoMapp",
-    tagline: "A travel mini app allowing users to mark the countries they have visited or would like to explore",
+    tagline: "A travel mini app allowing users to tick off countries they have visited or add them to a wishlist",
     type: "frontend",
     isHosted: true,
     imgLink: "gomapp.png",
@@ -120,6 +136,6 @@ export const projects: Project[] = [
       "React",
       "Vite"
     ],
-    description: "GoMapp was the first app I built in React, helping me to understand state, hooks, and how to pass props down from one component to another. As I develop much more complex applications now, GoMapp serves as a reference point to track my progress over the last few months." 
+    description: "GoMapp was the first app I built in React, helping me to understand state, hooks, and how to pass props down from one component to another. As I now build more complex applications, GoMapp serves as a reference point for tracking my progress as a developer."
   }
 ]
