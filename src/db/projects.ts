@@ -88,7 +88,7 @@ export const projects: Project[] = [
       "React",
       "Vite"
     ],
-    description: "I developed Taskyard by following Piyush Agarwal's tutorial for freeCodeCamp. The majority of the functionality in Taskyard is shared with Piyush's original Taskify app, but there are a number of additional features. The app allows users to add, edit, delete, or mark tasks as complete, as well as clearing the entire list. This short project helped me to familiarise myself with the use of TypeScript for React apps."
+    description: "I developed Taskyard by following Piyush Agarwal's tutorial for freeCodeCamp. While the majority of the functionality in Taskyard is shared with Piyush's original Taskify app, I have implemented some additional features. This short project helped me to familiarise myself with the use of TypeScript for React apps."
   },
   {
     projectId: 6,
