@@ -8,8 +8,8 @@ export const projects: Project[] = [
     type: "frontend",
     isHosted: false,
     imgLink: "construction.png",
-    siteLink: "https://northcoders-news-api-interface.netlify.app/",
-    repository: "https://github.com/gcpearse/northcoders-news-api-interface",
+    siteLink: undefined,
+    repository: "https://github.com/gcpearse/Construction-FE",
     techStack: [
       "TypeScript",
       "React",
