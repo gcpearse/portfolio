@@ -7,7 +7,7 @@ export const projects: Project[] = [
     tagline: "Full-stack web application in the early stages of development",
     type: "frontend",
     isHosted: false,
-    imgLink: "construction.png",
+    imgLink: "construction-tool.png",
     siteLink: undefined,
     repository: "https://github.com/gcpearse/Construction-FE",
     techStack: [
@@ -16,9 +16,12 @@ export const projects: Project[] = [
       "Redux",
       "Redux Toolkit",
       "RTK Query",
+      "React Hook Form",
+      "React Cookie",
+      "React Router",
       "Vite"
     ],
-    description: "I have teamed up with a colleague - Chris - to build this full-stack web application for the construction industry. As Chris develops the back end in C#, this is an opportunity for me to work with previously unfamiliar tools on the front, such as RTK Query."
+    description: "I have teamed up with a colleague - Chris - to build this full-stack web application for the construction industry. As Chris develops the back end in C#, this is an opportunity for me to work with previously unfamiliar tools on the front, such as RTK Query and React Cookie. With the auth system in place, I am currently working on an admin dashboard."
   },
   {
     projectId: 8,
@@ -32,6 +35,7 @@ export const projects: Project[] = [
     techStack: [
       "JavaScript",
       "React",
+      "React Router",
       "Vite",
       "Axios"
     ],
@@ -70,6 +74,8 @@ export const projects: Project[] = [
       "React",
       "Redux",
       "Redux Toolkit",
+      "React Hook Form",
+      "React Router",
       "Vite",
       "Axios",
       "AWS"
