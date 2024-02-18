@@ -58,7 +58,7 @@ export const projects: Project[] = [
       "Supertest",
       "PostgreSQL"
     ],
-    description: "The Northcoders News API is a fully functional REST API using Node.js to interact with a PostgreSQL database. It mimics a real-world forum or news website on which users are able to interact with articles, leave comments, vote, and explore a range of topics."
+    description: "The Northcoders News API is a fully functional REST API using Node.js to interact with a PostgreSQL database. The project features thorough error handling, MVC architecture, and full unit and integration testing using Jest and Supertest. With  an extensive range of CRUD endpoints, this API serves as the back end for my Northcoders News API Interface."
   },
   {
     projectId: 6,
