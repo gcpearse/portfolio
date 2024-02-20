@@ -80,7 +80,7 @@ export const projects: Project[] = [
       "Axios",
       "AWS"
     ],
-    description: "Umami is a collaborative recipe site on which users can not only view and post recipes, but also 'fork' (copy) existing recipes, make edits, and then submit their amended version of a recipe to the site. The application offers version control for the cooking community: in essence, it is the culinary world's answer to GitHub."
+    description: "Developed by our team of six to a tight deadline, Umami is a collaborative recipe site on which users can not only view and post recipes, but also \"fork\" (copy) existing recipes, make edits, and then submit their amended version of a recipe to the site. In essence, the application offers version control for the cooking community."
   },
   {
     projectId: 5,
