@@ -6,9 +6,9 @@ export const projects: Project[] = [
     title: "Construction Management Tool - Pair Project (WIP)",
     tagline: "Full-stack web application in the early stages of development",
     type: "frontend",
-    isHosted: false,
+    isHosted: true,
     imgLink: "construction-tool.png",
-    siteLink: undefined,
+    siteLink: "http://4.234.160.181:9090/",
     repository: "https://github.com/gcpearse/Construction-FE",
     techStack: [
       "TypeScript",
