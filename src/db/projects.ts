@@ -21,7 +21,7 @@ export const projects: Project[] = [
       "React Router",
       "Vite"
     ],
-    description: "I have teamed up with a colleague - Chris - to build this management tool for the construction industry. As Chris develops the back end in C#, this is an opportunity for me to work with unfamiliar front-end tools such as RTK Query. I am currently building a range of features for the admin dashboard."
+    description: "I have teamed up with a colleague - Chris - to build this management tool for the construction industry. As Chris develops the back end in C#, this is an opportunity for me to work with RTK Query for the first time. Having set up a functioning auth system, I am currently building a range of features for the admin dashboard, using API endpoints provided by Chris."
   },
   {
     projectId: 8,
