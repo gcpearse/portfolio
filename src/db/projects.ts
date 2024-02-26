@@ -21,7 +21,7 @@ export const projects: Project[] = [
       "React Router",
       "Vite"
     ],
-    description: "I have teamed up with a colleague - Chris - to build this full-stack web application for the construction industry. As Chris develops the back end in C#, this is an opportunity for me to work with previously unfamiliar tools on the front, such as RTK Query and React Cookie. With the auth system in place, I am currently working on an admin dashboard."
+    description: "I have teamed up with a colleague - Chris - to build this management tool for the construction industry. As Chris develops the back end in C#, this is an opportunity for me to work with unfamiliar front-end tools such as RTK Query. I am currently building a range of features for the admin dashboard."
   },
   {
     projectId: 8,
@@ -43,7 +43,7 @@ export const projects: Project[] = [
   },
   {
     projectId: 7,
-    title: "Northcoders News API",
+    title: "Online Forum API",
     tagline: "Fully functional and rigorously tested REST API",
     type: "backend",
     isHosted: true,
@@ -58,7 +58,7 @@ export const projects: Project[] = [
       "Supertest",
       "PostgreSQL"
     ],
-    description: "The Northcoders News API is a fully functional REST API using Node.js to interact with a PostgreSQL database. The project features thorough error handling, MVC architecture, and full unit and integration testing using Jest and Supertest. With  an extensive range of CRUD endpoints, this API serves as the back end for my Northcoders News API Interface."
+    description: "The Northcoders News API is a fully functional REST API using Node.js to interact with a PostgreSQL database. The project features thorough error handling, MVC architecture, and a full test suite using Jest and Supertest. With an extensive range of CRUD endpoints, this API serves as the back end for my Northcoders News API Interface."
   },
   {
     projectId: 6,
@@ -113,7 +113,7 @@ export const projects: Project[] = [
       "React",
       "Vite"
     ],
-    description: "I developed Taskyard by following Piyush Agarwal's tutorial for freeCodeCamp. While the majority of the functionality in Taskyard is shared with Piyush's original Taskify app, I have implemented some additional features. This short project helped me to familiarise myself with the use of TypeScript for React apps."
+    description: "I developed Taskyard by following Piyush Agarwal's tutorial for freeCodeCamp. While the majority of the functionality in Taskyard is shared with Piyush's original Taskify app, I have also implemented some additional features. This short project helped me to familiarise myself with the use of TypeScript for React apps."
   },
   {
     projectId: 3,
