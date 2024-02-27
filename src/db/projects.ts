@@ -21,7 +21,7 @@ export const projects: Project[] = [
       "React Router",
       "Vite"
     ],
-    description: "I have teamed up with a colleague - Chris - to build this management tool for the construction industry. As Chris develops the back end in C#, this is an opportunity for me to work with RTK Query for the first time. Having set up a functioning auth system, I am currently building a range of features for the admin dashboard, using API endpoints provided by Chris."
+    description: "I have teamed up with a colleague - Chris - to build this management tool for the construction industry. As Chris develops the back end in C#, this is an opportunity for me to work with tools like RTK Query for the first time. With a token-based auth system in place, I am working on a number of features for the admin dashboard."
   },
   {
     projectId: 8,
@@ -39,7 +39,7 @@ export const projects: Project[] = [
       "Vite",
       "Axios"
     ],
-    description: "Northcoders News mimics a real-world forum on which users are able to browse articles, while optionally applying a range of search filters. Logged in users may also post or delete comments and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript and uses Axios for HTTP requests."
+    description: "Northcoders News mimics a real-world forum on which users are able to browse articles while optionally applying a range of search filters. Logged in users may also post or delete comments and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript and uses Axios for HTTP requests."
   },
   {
     projectId: 7,
@@ -58,7 +58,7 @@ export const projects: Project[] = [
       "Supertest",
       "PostgreSQL"
     ],
-    description: "The Northcoders News API is a fully functional REST API using Node.js to interact with a PostgreSQL database. The project features thorough error handling, MVC architecture, and a full test suite using Jest and Supertest. With an extensive range of CRUD endpoints, this API serves as the back end for my Northcoders News API Interface."
+    description: "This is a fully functional REST API using Node.js to interact with a PostgreSQL database. The project features thorough error handling, MVC architecture, and a full test suite using Jest and Supertest. With an extensive range of CRUD endpoints, this API serves as the back end for my Northcoders News API Interface."
   },
   {
     projectId: 6,
@@ -80,7 +80,7 @@ export const projects: Project[] = [
       "Axios",
       "AWS"
     ],
-    description: "Developed by our team of six to a tight deadline, Umami is a collaborative recipe site on which users can not only view and post recipes, but also \"fork\" (copy) existing recipes, make edits, and then submit their amended version of a recipe to the site. In essence, the application offers version control for the cooking community."
+    description: "Developed by our team of six to a tight deadline, Umami is a collaborative recipe site optimised for mobile. Users can not only view and post recipes, but also copy existing recipes, make edits, and then submit their own version of a recipe to the site. Our aim was to mimic GitHub's \"fork\" feature, with the app offering version control to the cooking community."
   },
   {
     projectId: 5,
@@ -97,7 +97,7 @@ export const projects: Project[] = [
       "Vite",
       "Axios"
     ],
-    description: "CarboMonitor makes requests to the National Grid's Official Carbon Intensity API to present up-to-date information about the country's carbon intensity and fuel sources. This was my first opportunity to take advantage of Axios to interact with a third-party API, then clearly display relevant data to users on the front end."
+    description: "CarboMonitor makes requests to the National Grid's Official Carbon Intensity API to present up-to-date information about the country's carbon intensity and fuel sources. This was my first opportunity to use Axios when interacting with a third-party API, then clearly display relevant data to users on the front end."
   },
   {
     projectId: 4,
@@ -113,7 +113,7 @@ export const projects: Project[] = [
       "React",
       "Vite"
     ],
-    description: "I developed Taskyard by following Piyush Agarwal's tutorial for freeCodeCamp. While the majority of the functionality in Taskyard is shared with Piyush's original Taskify app, I have also implemented some additional features. This short project helped me to familiarise myself with the use of TypeScript for React apps."
+    description: "To get used to using TypeScript in React, I followed Piyush Agarwal's tutorial for freeCodeCamp to develop Taskyard. The majority of the functionality is shared with Piyush's original Taskify app, but I have also implemented some additional features."
   },
   {
     projectId: 3,
