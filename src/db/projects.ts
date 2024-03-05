@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     projectId: 9,
     title: "Construction Management Tool - Pair Project (WIP)",
-    tagline: "Full-stack web application in the early stages of development",
+    tagline: "Full-stack web application under development",
     type: "frontend",
     isHosted: true,
     imgLink: "construction-tool.png",
@@ -21,7 +21,7 @@ export const projects: Project[] = [
       "React Router",
       "Vite"
     ],
-    description: "I have teamed up with a colleague - Chris - to build this management tool for the construction industry. As Chris develops the back end in C#, this is an opportunity for me to work with tools like RTK Query for the first time. With a token-based auth system in place, I am working on a number of features for the admin dashboard."
+    description: "I have teamed up with a colleague - Chris - to build this management tool for the construction industry. As Chris develops the back end in C#, I have used RTK query on the front to create a fully integrated Redux application. Our token-based auth system allows verified users to interact with the admin dashboard, from which they can easily add, edit, or delete jobs and services."
   },
   {
     projectId: 8,
@@ -39,7 +39,7 @@ export const projects: Project[] = [
       "Vite",
       "Axios"
     ],
-    description: "Northcoders News mimics a real-world forum on which users are able to browse articles while optionally applying a range of search filters. Logged in users may also post or delete comments and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript and uses Axios for HTTP requests."
+    description: "Northcoders News mimics a real-world forum on which users are able to browse articles while optionally applying a range of search filters. Logged in users can also post or delete comments and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript and uses Axios for HTTP requests."
   },
   {
     projectId: 7,
