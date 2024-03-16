@@ -3,8 +3,8 @@ import { Project } from "../models";
 export const projects: Project[] = [
   {
     projectId: 9,
-    title: "Construction Management Tool - Pair Project (WIP)",
-    tagline: "Full-stack web application under development",
+    title: "Construction Management Tool - Pair Project",
+    tagline: "Industry-specific web app for internal business management",
     type: "frontend",
     isHosted: true,
     imgLink: "construction-tool.png",
@@ -18,10 +18,10 @@ export const projects: Project[] = [
       "RTK Query",
       "React Hook Form",
       "React Cookie",
-      "React Router",
-      "Vite"
+      "Vite",
+      "Azure"
     ],
-    description: "I have teamed up with a colleague - Chris - to build this management tool for the construction industry. As Chris develops the back end in C#, I have used RTK query on the front to create a fully integrated Redux application. Our token-based auth system allows verified users to interact with the admin dashboard, from which they can easily add, edit, or delete jobs and services."
+    description: "I have teamed up with a colleague - Chris - to build this management tool for the construction industry. Chris has built the back end in C#, I have used RTK query on the front to create a fully integrated Redux application. Our token-based auth system allows verified users to interact with the admin dashboard, from which they can easily add, edit, or delete jobs and services."
   },
   {
     projectId: 8,
@@ -35,7 +35,6 @@ export const projects: Project[] = [
     techStack: [
       "JavaScript",
       "React",
-      "React Router",
       "Vite",
       "Axios"
     ],
@@ -75,7 +74,6 @@ export const projects: Project[] = [
       "Redux",
       "Redux Toolkit",
       "React Hook Form",
-      "React Router",
       "Vite",
       "Axios",
       "AWS"
