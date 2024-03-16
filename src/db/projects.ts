@@ -21,7 +21,7 @@ export const projects: Project[] = [
       "Vite",
       "Azure"
     ],
-    description: "I have teamed up with a colleague - Chris - to build this management tool for the construction industry. Chris has built the back end in C#, I have used RTK query on the front to create a fully integrated Redux application. Our token-based auth system allows verified users to interact with the admin dashboard, from which they can easily add, edit, or delete jobs and services."
+    description: "I teamed up with a colleague - Chris - to develop this management tool for the construction industry. Chris has written the back end in C#, while on the front end I have used RTK Query to create a fully integrated Redux application. Our token-based auth system allows verified users to interact with the admin dashboard, from which they can add, edit, or delete jobs and services."
   },
   {
     projectId: 8,
