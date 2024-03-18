@@ -15,13 +15,13 @@
   .sidebar {
     position: absolute;
     left: -55vw;
+    transition: 0.5s;
     height: 100%;
     width: 55vw;
     background: #222222;
-    text-align: start;
-    transition: 0.4s;
-    color: #FEFEFE;
     font-size: 1.5rem;
+    text-align: start;
+    color: #FEFEFE;
   }
 
   .open-nav {
@@ -108,7 +108,7 @@
   margin-top: 5%;
 }
 
-a>button {
+.page-nav-btn {
   box-shadow: 0 0 2px 1px #222222;
   border: none;
   border-radius: 50px;
@@ -120,13 +120,13 @@ a>button {
   transition: 0.8s;
 }
 
-a>button:hover {
+.page-nav-btn:hover {
   border-radius: 8px;
   background: #FEFEFE;
   color: #222222;
 }
 
-a>button:active {
+.page-nav-btn:active {
   transform: scale(0.95);
 }
 

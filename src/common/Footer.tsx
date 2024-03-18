@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { LuChevronUp } from "react-icons/lu";
 
+
 const Footer: React.FC = () => {
 
+
   const [isVisible, setIsVisible] = useState<boolean>(false)
+
 
   window.addEventListener("scroll", () => {
     if (document.documentElement.scrollTop > 1000) {
@@ -13,8 +16,10 @@ const Footer: React.FC = () => {
     }
   })
 
+
   return (
     <footer>
+
       <button className={!isVisible ? (
         "scroll-up-btn"
       ) : (
@@ -24,9 +29,13 @@ const Footer: React.FC = () => {
           top: 0,
           behavior: "smooth"
         });
-      }}><LuChevronUp /></button>
+      }}>
+        <LuChevronUp />
+      </button>
+
     </footer>
   )
 }
+
 
 export default Footer

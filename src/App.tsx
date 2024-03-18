@@ -8,23 +8,39 @@ import Projects from "./pages/Projects"
 import { useAppDispatch } from "./app/hooks"
 import { close } from "./features/nav/navSlice"
 
+
 const App: React.FC = () => {
 
+
   const dispatch = useAppDispatch()
+
 
   return (
     <>
       <Nav />
+
       <Header />
+
       <main onClick={() => dispatch(close())}>
+
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+
+          <Route
+            path="/"
+            element={<Home />} />
+
+          <Route
+            path="/projects"
+            element={<Projects />} />
+
         </Routes>
+
       </main>
+
       <Footer />
     </>
   )
 }
+
 
 export default App

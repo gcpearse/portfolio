@@ -1,9 +1,13 @@
-import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { projects } from "../db/projects"
 import SingleProject from "../features/projects/SingleProject"
 import { useEffect } from "react"
 
+
 const Projects: React.FC = () => {
+
+
+  const navigate = useNavigate()
 
   useEffect(() => {
     window.scrollTo({
@@ -13,10 +17,14 @@ const Projects: React.FC = () => {
     })
   }, [])
 
+
   return (
     <section className="projects-section">
+
       <h1>Featured Projects</h1>
+
       <div>
+
         <ul>
           {projects.map((project) => {
             return (
@@ -26,12 +34,19 @@ const Projects: React.FC = () => {
             )
           })}
         </ul>
+
       </div>
+
       <div className="btn-wrapper">
-        <Link to="/">
-          <button>Home</button>
-        </Link>
+
+        <button
+          className="page-nav-btn"
+          onClick={() => navigate("/")}>
+          Home
+        </button>
+
       </div>
+
     </section>
   )
 }

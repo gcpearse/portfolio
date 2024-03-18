@@ -1,12 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit"
 
+
 type NavState = {
   isToggled: boolean
 }
 
+
 const initialState: NavState = {
   isToggled: false
 }
+
 
 const navSlice = createSlice({
   name: "nav",
@@ -21,6 +24,10 @@ const navSlice = createSlice({
   }
 })
 
-export const { toggle, close } = navSlice.actions
+
+export const {
+  toggle,
+  close
+} = navSlice.actions
 
 export default navSlice.reducer
