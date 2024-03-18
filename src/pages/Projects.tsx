@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import { projects } from "../../../db/projects"
-import SingleProject from "./SingleProject"
+import { projects } from "../db/projects"
+import SingleProject from "../features/projects/SingleProject"
 import { useEffect } from "react"
 
 const Projects: React.FC = () => {

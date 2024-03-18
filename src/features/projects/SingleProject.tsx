@@ -1,5 +1,5 @@
 import { FaGithub, FaLink } from "react-icons/fa"
-import { Project } from "../../../models"
+import { Project } from "../../models"
 
 type Props = {
   project: Project
