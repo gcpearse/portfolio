@@ -2,7 +2,7 @@ const Header: React.FC = () => {
 
 
   return (
-    <div className="mobile-header"></div>
+    <header className="mobile-header"></header>
   )
 }
 
