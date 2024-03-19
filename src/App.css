@@ -11,14 +11,14 @@
   transition: 0.8s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .sidebar {
     position: absolute;
     left: -55vw;
     transition: 0.5s;
     height: 100%;
     width: 55vw;
-    background: #222222;
+    background: #3c6e71;
     font-size: 1.5rem;
     text-align: start;
     color: #FEFEFE;
@@ -63,7 +63,7 @@
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 801px) {
   .sidebar {
     display: flex;
     align-items: center;
@@ -132,9 +132,9 @@
 
 /* Home || */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .mobile-header {
-    background: #3c6e71;
+    background: #222222;
     height: 77px;
   }
 
@@ -290,7 +290,7 @@
 
 .profile-img {
   object-fit: cover;
-  border-radius: 40px;
+  border-radius: 16px;
   width: 80%;
   max-width: 550px;
   aspect-ratio: 1/1;
@@ -555,7 +555,7 @@ footer {
 @media only screen and (max-width: 600px) {
   footer {
     height: 77px;
-    background: #3c6e71;
+    background: #222222;
   }
 }
 
