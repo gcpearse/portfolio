@@ -6,7 +6,8 @@ import Nav from "./features/nav/Nav"
 import Header from "./common/Header"
 import Projects from "./pages/Projects"
 import { useAppDispatch } from "./app/hooks"
-import { close } from "./features/nav/navSlice"
+import { closeNav } from "./features/nav/navSlice"
+import MiniApps from "./pages/MiniApps"
 
 
 const App: React.FC = () => {
@@ -21,7 +22,7 @@ const App: React.FC = () => {
 
       <Header />
 
-      <main onClick={() => dispatch(close())}>
+      <main onClick={() => dispatch(closeNav())}>
 
         <Routes>
 
@@ -32,6 +33,10 @@ const App: React.FC = () => {
           <Route
             path="/projects"
             element={<Projects />} />
+
+          <Route
+            path="/mini_apps"
+            element={<MiniApps />} />
 
         </Routes>
 

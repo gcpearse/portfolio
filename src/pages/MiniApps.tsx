@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom"
-import { projects } from "../db/projects"
+import { miniApps } from "../db/projects"
 import SingleProject from "../features/projects/SingleProject"
 import { useEffect } from "react"
 
 
-const Projects: React.FC = () => {
+const MiniApps: React.FC = () => {
 
 
   const navigate = useNavigate()
@@ -21,12 +21,12 @@ const Projects: React.FC = () => {
   return (
     <section className="projects-section">
 
-      <h1>Featured Projects</h1>
+      <h1>Mini Apps</h1>
 
       <div>
 
         <ul>
-          {projects.map((project) => {
+          {miniApps.map((project) => {
             return (
               <li key={project.projectId}>
                 <SingleProject project={project} />
@@ -52,4 +52,4 @@ const Projects: React.FC = () => {
 }
 
 
-export default Projects
+export default MiniApps
