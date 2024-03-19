@@ -7,6 +7,7 @@ import Header from "./common/Header"
 import Projects from "./pages/Projects"
 import { useAppDispatch } from "./app/hooks"
 import { closeNav } from "./features/nav/navSlice"
+import MiniApps from "./pages/MiniApps"
 
 
 const App: React.FC = () => {
@@ -32,6 +33,10 @@ const App: React.FC = () => {
           <Route
             path="/projects"
             element={<Projects />} />
+
+          <Route
+            path="/mini_apps"
+            element={<MiniApps />} />
 
         </Routes>
 
