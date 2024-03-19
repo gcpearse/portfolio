@@ -1,4 +1,4 @@
-import { FaCode, FaGithub, FaHome, FaLinkedin } from "react-icons/fa"
+import { FaCode, FaGithub, FaHome, FaLinkedin, FaReact } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import { useAppDispatch } from "../../app/hooks"
 import { closeNav } from "./navSlice"
@@ -22,6 +22,12 @@ const NavMenu: React.FC = () => {
     <li onClick={() => dispatch(closeNav())}>
       <Link to="/projects">
         Projects&nbsp;<FaCode className="nav-icon" />
+      </Link>
+    </li>
+
+    <li onClick={() => dispatch(closeNav())}>
+      <Link to="/mini_apps">
+        Mini Apps&nbsp;<FaReact className="nav-icon" />
       </Link>
     </li>
 
