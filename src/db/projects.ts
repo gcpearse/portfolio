@@ -3,7 +3,7 @@ import { Project } from "../models";
 
 export const projects: Project[] = [
   {
-    projectId: 9,
+    projectId: 5,
     title: "Construction Management Tool - Pair Project",
     tagline: "Industry-specific web app for internal business management",
     type: "frontend",
@@ -25,7 +25,7 @@ export const projects: Project[] = [
     description: "I teamed up with a colleague - Chris - to develop this management tool for the construction industry. Chris has written the back end in C#, while on the front end I have used RTK Query to create a fully integrated Redux application. Our token-based auth system allows verified users to interact with the admin dashboard, from which they can add, edit, or delete jobs and services."
   },
   {
-    projectId: 8,
+    projectId: 4,
     title: "Northcoders News API Interface",
     tagline: "Interactive web forum built with React and vanilla JavaScript",
     type: "frontend",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     description: "Northcoders News mimics a real-world forum on which users are able to browse articles while optionally applying a range of search filters. Logged in users can also post or delete comments and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript and uses Axios for HTTP requests."
   },
   {
-    projectId: 7,
+    projectId: 3,
     title: "Online Forum API",
     tagline: "Fully functional and rigorously tested REST API",
     type: "backend",
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     description: "This is a fully functional REST API using Node.js to interact with a PostgreSQL database. The project features thorough error handling, MVC architecture, and a full test suite using Jest and Supertest. With an extensive range of CRUD endpoints, this API serves as the back end for my Northcoders News API Interface."
   },
   {
-    projectId: 6,
+    projectId: 2,
     title: "Umami - Team Project",
     tagline: "Collaborative web application providing version control for chefs and home cooks",
     type: "frontend",
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     description: "Developed by our team of six to a tight deadline, Umami is a collaborative recipe site optimised for mobile. Users can not only view and post recipes, but also copy existing recipes, make edits, and then submit their own version of a recipe to the site. Our aim was to mimic GitHub's \"fork\" feature, with the app offering version control to the cooking community."
   },
   {
-    projectId: 5,
+    projectId: 1,
     title: "CarboMonitor",
     tagline: "API interface for the National Grid's Official Carbon Intensity API",
     type: "frontend",
@@ -97,7 +97,11 @@ export const projects: Project[] = [
       "Axios"
     ],
     description: "CarboMonitor makes requests to the National Grid's Official Carbon Intensity API to present up-to-date information about the country's carbon intensity and fuel sources. This was my first opportunity to use Axios when interacting with a third-party API, then clearly display relevant data to users on the front end."
-  },
+  }
+]
+
+
+export const miniApps: Project[] = [
   {
     projectId: 4,
     title: "Taskyard",
