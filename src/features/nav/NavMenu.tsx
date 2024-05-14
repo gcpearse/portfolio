@@ -26,7 +26,7 @@ const NavMenu: React.FC = () => {
     </li>
 
     <li onClick={() => dispatch(closeNav())}>
-      <Link to="/mini_apps">
+      <Link to="/mini-apps">
         Mini Apps&nbsp;<FaReact className="nav-icon" />
       </Link>
     </li>

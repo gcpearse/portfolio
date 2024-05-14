@@ -35,7 +35,7 @@ const App: React.FC = () => {
             element={<Projects />} />
 
           <Route
-            path="/mini_apps"
+            path="/mini-apps"
             element={<MiniApps />} />
 
         </Routes>
