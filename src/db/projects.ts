@@ -3,6 +3,28 @@ import { Project } from "../models";
 
 export const projects: Project[] = [
   {
+    projectId: 6,
+    title: "Agriculture API",
+    tagline: "Express REST API under development",
+    type: "backend",
+    isHosted: false,
+    imgLink: "agriculture-be.png",
+    siteLink: undefined,
+    repository: "https://github.com/gcpearse/agriculture-back-end",
+    techStack: [
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Jest",
+      "Supertest",
+      "PostgreSQL",
+      "JWT",
+      "Swagger",
+      "GitHub Actions"
+    ],
+    description: "This Express REST API serves as the back end for a prospective full-stack application allowing gardeners, allotment owners, and subsistence farmers to keep track of the crops, jobs, and issues on their plots. The project makes use of JSON Web Token authentication, Swagger documentation, and a GitHub Actions workflow."
+  },
+  {
     projectId: 5,
     title: "Construction Management Tool - Pair Project",
     tagline: "Industry-specific web app for internal business management",
@@ -37,14 +59,15 @@ export const projects: Project[] = [
       "JavaScript",
       "React",
       "Vite",
-      "Axios"
+      "Axios",
+      "Netlify"
     ],
     description: "Northcoders News mimics a real-world forum on which users are able to browse articles while optionally applying a range of search filters. Logged in users can also post or delete comments and vote on other users' content. When users interact with the site, requests are made to my Northcoders News API. The application is built with React in vanilla JavaScript and uses Axios for HTTP requests."
   },
   {
     projectId: 3,
     title: "Online Forum API",
-    tagline: "Fully functional and rigorously tested REST API",
+    tagline: "Fully functional and rigorously tested Express REST API",
     type: "backend",
     isHosted: true,
     imgLink: "nc-news-be.png",
@@ -58,7 +81,7 @@ export const projects: Project[] = [
       "Supertest",
       "PostgreSQL"
     ],
-    description: "This is a fully functional REST API using Node.js to interact with a PostgreSQL database. The project features thorough error handling, MVC architecture, and a full test suite using Jest and Supertest. With an extensive range of CRUD endpoints, this API serves as the back end for my Northcoders News API Interface."
+    description: "This is a fully functional Express REST API using Node.js to interact with a PostgreSQL database. The project features thorough error handling, MVC architecture, and a full test suite using Jest and Supertest. With an extensive range of CRUD endpoints, this API serves as the back end for my Northcoders News API Interface."
   },
   {
     projectId: 2,
@@ -94,7 +117,8 @@ export const projects: Project[] = [
       "JavaScript",
       "React",
       "Vite",
-      "Axios"
+      "Axios",
+      "Netlify"
     ],
     description: "CarboMonitor makes requests to the National Grid's Official Carbon Intensity API to present up-to-date information about the country's carbon intensity and fuel sources. This was my first opportunity to use Axios when interacting with a third-party API, then clearly display relevant data to users on the front end."
   }
