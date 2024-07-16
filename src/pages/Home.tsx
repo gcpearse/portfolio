@@ -27,11 +27,11 @@ const Home: React.FC = () => {
 
             <span>Hello</span>
 
-            <h1>I'm Glen Pearse</h1>
+            <h1>I'm Glen</h1>
 
-            <h2>Junior Software Developer</h2>
+            <h2>Junior Software Engineer</h2>
 
-            <p>Software development allows me to channel my creativity and express my imagination in a precise way. There is something immensely satisfying about seeing an application take shape before your eyes, and knowing that you built it from the ground up.</p>
+            <p>Software engineering allows me to channel my creativity and express my imagination in a precise way. There is something immensely satisfying about seeing an application take shape before your eyes, and knowing that you built it from the ground up.</p>
 
             <p>Above all, what I love about development is that each day is an opportunity to learn something new in a complex, fast-paced, and relentlessly innovative field.</p>
 
