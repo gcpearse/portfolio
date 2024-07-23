@@ -19,10 +19,12 @@ export const projects: Project[] = [
       "Supertest",
       "PostgreSQL",
       "JWT",
+      "bcrypt",
+      "OpenAPI",
       "Swagger",
       "GitHub Actions"
     ],
-    description: "This Express REST API serves as the back end for a prospective full-stack application allowing gardeners, allotment owners, and subsistence farmers to keep track of the crops, jobs, and issues on their plots. The project makes use of JSON Web Token authentication, Swagger documentation, and a GitHub Actions workflow."
+    description: "This Express REST API serves as the back end for a prospective full-stack application allowing gardeners, allotment owners, and subsistence farmers to keep track of the crops, jobs, and issues on their plots. The project makes use of JSON Web Token authentication, password hashing, OpenAPI Swagger documentation, and a GitHub Actions workflow."
   },
   {
     projectId: 5,
