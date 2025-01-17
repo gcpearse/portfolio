@@ -24,16 +24,16 @@ export const projects: Project[] = [
       "Swagger",
       "GitHub Actions"
     ],
-    description: "This Express REST API serves as the back end for a prospective full-stack application allowing gardeners, allotment owners, and subsistence farmers to keep track of the crops, jobs, and issues on their plots. The project makes use of JSON Web Token authentication, password hashing, OpenAPI Swagger documentation, and a GitHub Actions workflow."
+    description: "This Express REST API will serve as the back end for a prospective full-stack application allowing gardeners, allotment owners, and subsistence farmers to keep track of the crops, jobs, and issues on their plots. The project makes use of JSON Web Token authentication, password hashing, OpenAPI Swagger documentation, and a GitHub Actions CI workflow."
   },
   {
     projectId: 5,
     title: "Construction Management Tool - Pair Project",
     tagline: "Industry-specific web app for internal business management",
     type: "frontend",
-    isHosted: true,
+    isHosted: false,
     imgLink: "construction-tool.png",
-    siteLink: "http://4.234.160.181:9090/",
+    siteLink: undefined,
     repository: "https://github.com/gcpearse/Construction-FE",
     techStack: [
       "TypeScript",
@@ -46,7 +46,7 @@ export const projects: Project[] = [
       "Vite",
       "Azure"
     ],
-    description: "I teamed up with a colleague - Chris - to develop this management tool for the construction industry. Chris has written the back end in C#, while on the front end I have used RTK Query to create a fully integrated Redux application. Our token-based auth system allows verified users to interact with the admin dashboard, from which they can add, edit, or delete jobs and services."
+    description: "I teamed up with a colleague - Chris - to develop this management tool for the construction industry. Chris wrote the back-end code in C#, while on the front I have used RTK Query to create a fully integrated Redux application. Our token-based auth system allows verified users to interact with the admin dashboard, from which they can add, edit, or delete jobs and services."
   },
   {
     projectId: 4,
@@ -90,9 +90,9 @@ export const projects: Project[] = [
     title: "Umami - Team Project",
     tagline: "Collaborative web application providing version control for chefs and home cooks",
     type: "frontend",
-    isHosted: true,
+    isHosted: false,
     imgLink: "umami.png",
-    siteLink: "http://ec2-18-130-212-68.eu-west-2.compute.amazonaws.com:3000/",
+    siteLink: undefined,
     repository: "https://github.com/gcpearse/RecipeHub-FE",
     techStack: [
       "TypeScript",
